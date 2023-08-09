@@ -13,7 +13,7 @@ const SearchBar = () => {
    
     
 
-    const [select,setselect]=useState('')
+    const [select,setselect]=useState('All')
     const [search,setsearch]=useState('')
     const [countries, setCountries] = useState([]);
     const [loading, setLoading] = useState(true);
