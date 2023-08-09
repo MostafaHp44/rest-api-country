@@ -1,0 +1,56 @@
+.MainAllCard
+{
+    display: grid;
+    padding: 1em;
+    margin: 1em;
+}
+.AllCards
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem 0rem;
+}
+.MainCard
+{
+    display: grid;
+    border: 1px #D2D2D2 solid;
+    border-radius: 5px;
+    width: max-content;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+.NameCountry
+{
+    font-weight: 700;
+    border-bottom: 1px #000 solid;
+    padding: 15px 10px 20px 10px ;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.Population,
+.Region
+{
+    border-bottom: 1px #000 solid;
+    padding: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+}
+.Capital
+{
+    padding: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+}
+
+.numpop,
+.namereg,
+.namecpital
+{
+    font-weight: 300;
+
+}
+.imgcountry
+{
+    width: 302px;
+    height: 150px;
+}

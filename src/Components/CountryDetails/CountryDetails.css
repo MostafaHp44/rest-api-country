@@ -1,0 +1,55 @@
+.MainCountryDetails
+{
+    display: grid;
+    margin-top: 8em;
+}
+.Fir
+{
+    display: grid;
+}
+.BackHome
+{
+    color: #2d2d2d;
+    background-color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    width: max-content;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    border: none;
+    padding: 5px;
+    margin-left: 7em;
+
+}
+.Sec
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cn
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+
+}
+.NativeName,
+.Population-2,
+.Region-2,
+.SubRegion,
+.Capital-2,
+.TopLevelDomain,
+.Currencies,
+.Languages
+{
+    background-color: #fff;
+    margin: 1em;
+    padding: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+}
+.Sec
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
